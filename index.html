@@ -2,67 +2,90 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obrigado por acessar!</title>
-    <!-- Importa a fonte Poppins do Google Fonts -->
+    
+    <!-- Fonte bonita (Poppins) -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
-            height: 100vh;
+            padding: 0;
             background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'Poppins', sans-serif;
-            color: #fff;
+            min-height: 100vh;
+            text-align: center;
         }
 
         .container {
-            text-align: center;
             background: rgba(255, 255, 255, 0.1);
-            padding: 40px 60px;
+            padding: 30px 20px;
+            margin: 20px;
             border-radius: 20px;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-            max-width: 800px;
+            max-width: 600px;
+            width: 100%;
         }
 
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
+            font-size: 2rem;
+            margin-bottom: 15px;
         }
 
         p {
-            font-size: 1.2rem;
-            margin: 10px 0;
+            font-size: 1.1rem;
             line-height: 1.6;
+            margin: 10px 0;
             opacity: 0.95;
         }
 
         .footer {
-            margin-top: 30px;
-            font-size: 1rem;
+            margin-top: 25px;
+            font-size: 0.95rem;
             opacity: 0.7;
+        }
+
+        /* Responsivo para telas menores */
+        @media (max-width: 480px) {
+            .container {
+                padding: 25px 15px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Obrigado por acessar!</h1>
+        
         <p>💧 <strong>Mantenha-se Hidratado: Seu Corpo Agradece!</strong> 🏃‍♂️🏋️‍♀️</p>
         
-        <p>Durante a prática de atividades físicas, nosso corpo perde uma grande quantidade de água através do suor, e com ela, também perdemos sais minerais essenciais para o bom funcionamento do organismo.</p>
+        <p>
+            Durante a prática de atividades físicas, nosso corpo perde uma grande quantidade de água através do suor, e com ela, também perdemos sais minerais essenciais para o bom funcionamento do organismo.
+        </p>
         
-        <p>A <strong>hidratação adequada</strong> é fundamental para manter o desempenho físico, evitar câimbras, tonturas, fadiga precoce e até mesmo complicações mais sérias como a desidratação.</p>
+        <p>
+            A <strong>hidratação adequada</strong> é fundamental para manter o desempenho físico, evitar câimbras, tonturas, fadiga precoce e até mesmo complicações mais sérias como a desidratação.
+        </p>
         
         <p>
             ✅ <strong>Antes, durante e depois do exercício, beba água!</strong><br>
             ✅ Não espere sentir sede — a sede já é um sinal de desidratação.<br>
             ✅ Em atividades intensas ou longas, considere também bebidas isotônicas para repor eletrólitos.
         </p>
-        
-        <p><strong>Cuidar da sua hidratação é cuidar da sua saúde e da sua performance.</strong> Faça da água sua parceira de treino!</p>
-
-        <p class="footer">(Esse teste foi criado em 26/08/2025!)</p>
-    </div>
-</body>
-</html>
